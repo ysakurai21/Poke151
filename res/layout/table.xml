@@ -1,0 +1,274 @@
+<HorizontalScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent">
+<ScrollView
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent">
+<TableLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView android:text="ポケモンの名前を、ひらがな、又はカタカナで入力してください。"/>
+	
+	<TableRow>
+		<TextView android:text="名前 : "/>
+		<EditText android:id="@+id/text_box" android:layout_height="wrap_content" android:inputType="text" android:layout_span="6"/>
+		<Button android:id="@+id/button" android:text="確定"/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="No.001～030" android:layout_span="2"/>
+		<TextView android:text="No.031～060" android:layout_span="2"/>
+		<TextView android:text="No.061～090" android:layout_span="2"/>
+		<TextView android:text="No.091～120" android:layout_span="2"/>
+		<TextView android:text="No.121～151" android:layout_span="2"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE001" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t001"/><TextView android:id="@+id/NAME001" android:visibility="invisible" android:text="@string/POKE001"/>
+		<ImageView android:id="@+id/POKE031" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t031"/><TextView android:id="@+id/NAME031" android:visibility="invisible" android:text="@string/POKE031"/>
+		<ImageView android:id="@+id/POKE061" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t061"/><TextView android:id="@+id/NAME061" android:visibility="invisible" android:text="@string/POKE061"/>
+		<ImageView android:id="@+id/POKE091" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t091"/><TextView android:id="@+id/NAME091" android:visibility="invisible" android:text="@string/POKE091"/>
+		<ImageView android:id="@+id/POKE121" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t121"/><TextView android:id="@+id/NAME121" android:visibility="invisible" android:text="@string/POKE121"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE002" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t002"/><TextView android:id="@+id/NAME002" android:visibility="invisible" android:text="@string/POKE002"/>
+		<ImageView android:id="@+id/POKE032" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t032"/><TextView android:id="@+id/NAME032" android:visibility="invisible" android:text="@string/POKE032"/>
+		<ImageView android:id="@+id/POKE062" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t062"/><TextView android:id="@+id/NAME062" android:visibility="invisible" android:text="@string/POKE062"/>
+		<ImageView android:id="@+id/POKE092" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t092"/><TextView android:id="@+id/NAME092" android:visibility="invisible" android:text="@string/POKE092"/>
+		<ImageView android:id="@+id/POKE122" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t122"/><TextView android:id="@+id/NAME122" android:visibility="invisible" android:text="@string/POKE122"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE003" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t003"/><TextView android:id="@+id/NAME003" android:visibility="invisible" android:text="@string/POKE003"/>
+		<ImageView android:id="@+id/POKE033" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t033"/><TextView android:id="@+id/NAME033" android:visibility="invisible" android:text="@string/POKE033"/>
+		<ImageView android:id="@+id/POKE063" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t063"/><TextView android:id="@+id/NAME063" android:visibility="invisible" android:text="@string/POKE063"/>
+		<ImageView android:id="@+id/POKE093" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t093"/><TextView android:id="@+id/NAME093" android:visibility="invisible" android:text="@string/POKE093"/>
+		<ImageView android:id="@+id/POKE123" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t123"/><TextView android:id="@+id/NAME123" android:visibility="invisible" android:text="@string/POKE123"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE004" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t004"/><TextView android:id="@+id/NAME004" android:visibility="invisible" android:text="@string/POKE004"/>
+		<ImageView android:id="@+id/POKE034" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t034"/><TextView android:id="@+id/NAME034" android:visibility="invisible" android:text="@string/POKE034"/>
+		<ImageView android:id="@+id/POKE064" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t064"/><TextView android:id="@+id/NAME064" android:visibility="invisible" android:text="@string/POKE064"/>
+		<ImageView android:id="@+id/POKE094" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t094"/><TextView android:id="@+id/NAME094" android:visibility="invisible" android:text="@string/POKE094"/>
+		<ImageView android:id="@+id/POKE124" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t124"/><TextView android:id="@+id/NAME124" android:visibility="invisible" android:text="@string/POKE124"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE005" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t005"/><TextView android:id="@+id/NAME005" android:visibility="invisible" android:text="@string/POKE005"/>
+		<ImageView android:id="@+id/POKE035" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t035"/><TextView android:id="@+id/NAME035" android:visibility="invisible" android:text="@string/POKE035"/>
+		<ImageView android:id="@+id/POKE065" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t065"/><TextView android:id="@+id/NAME065" android:visibility="invisible" android:text="@string/POKE065"/>
+		<ImageView android:id="@+id/POKE095" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t095"/><TextView android:id="@+id/NAME095" android:visibility="invisible" android:text="@string/POKE095"/>
+		<ImageView android:id="@+id/POKE125" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t125"/><TextView android:id="@+id/NAME125" android:visibility="invisible" android:text="@string/POKE125"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE006" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t006"/><TextView android:id="@+id/NAME006" android:visibility="invisible" android:text="@string/POKE006"/>
+		<ImageView android:id="@+id/POKE036" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t036"/><TextView android:id="@+id/NAME036" android:visibility="invisible" android:text="@string/POKE036"/>
+		<ImageView android:id="@+id/POKE066" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t066"/><TextView android:id="@+id/NAME066" android:visibility="invisible" android:text="@string/POKE066"/>
+		<ImageView android:id="@+id/POKE096" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t096"/><TextView android:id="@+id/NAME096" android:visibility="invisible" android:text="@string/POKE096"/>
+		<ImageView android:id="@+id/POKE126" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t126"/><TextView android:id="@+id/NAME126" android:visibility="invisible" android:text="@string/POKE126"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE007" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t007"/><TextView android:id="@+id/NAME007" android:visibility="invisible" android:text="@string/POKE007"/>
+		<ImageView android:id="@+id/POKE037" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t037"/><TextView android:id="@+id/NAME037" android:visibility="invisible" android:text="@string/POKE037"/>
+		<ImageView android:id="@+id/POKE067" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t067"/><TextView android:id="@+id/NAME067" android:visibility="invisible" android:text="@string/POKE067"/>
+		<ImageView android:id="@+id/POKE097" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t097"/><TextView android:id="@+id/NAME097" android:visibility="invisible" android:text="@string/POKE097"/>
+		<ImageView android:id="@+id/POKE127" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t127"/><TextView android:id="@+id/NAME127" android:visibility="invisible" android:text="@string/POKE127"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE008" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t008"/><TextView android:id="@+id/NAME008" android:visibility="invisible" android:text="@string/POKE008"/>
+		<ImageView android:id="@+id/POKE038" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t038"/><TextView android:id="@+id/NAME038" android:visibility="invisible" android:text="@string/POKE038"/>
+		<ImageView android:id="@+id/POKE068" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t068"/><TextView android:id="@+id/NAME068" android:visibility="invisible" android:text="@string/POKE068"/>
+		<ImageView android:id="@+id/POKE098" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t098"/><TextView android:id="@+id/NAME098" android:visibility="invisible" android:text="@string/POKE098"/>
+		<ImageView android:id="@+id/POKE128" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t128"/><TextView android:id="@+id/NAME128" android:visibility="invisible" android:text="@string/POKE128"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE009" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t009"/><TextView android:id="@+id/NAME009" android:visibility="invisible" android:text="@string/POKE009"/>
+		<ImageView android:id="@+id/POKE039" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t039"/><TextView android:id="@+id/NAME039" android:visibility="invisible" android:text="@string/POKE039"/>
+		<ImageView android:id="@+id/POKE069" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t069"/><TextView android:id="@+id/NAME069" android:visibility="invisible" android:text="@string/POKE069"/>
+		<ImageView android:id="@+id/POKE099" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t099"/><TextView android:id="@+id/NAME099" android:visibility="invisible" android:text="@string/POKE099"/>
+		<ImageView android:id="@+id/POKE129" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t129"/><TextView android:id="@+id/NAME129" android:visibility="invisible" android:text="@string/POKE129"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE010" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t010"/><TextView android:id="@+id/NAME010" android:visibility="invisible" android:text="@string/POKE010"/>
+		<ImageView android:id="@+id/POKE040" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t040"/><TextView android:id="@+id/NAME040" android:visibility="invisible" android:text="@string/POKE040"/>
+		<ImageView android:id="@+id/POKE070" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t070"/><TextView android:id="@+id/NAME070" android:visibility="invisible" android:text="@string/POKE070"/>
+		<ImageView android:id="@+id/POKE100" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t100"/><TextView android:id="@+id/NAME100" android:visibility="invisible" android:text="@string/POKE100"/>
+		<ImageView android:id="@+id/POKE130" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t130"/><TextView android:id="@+id/NAME130" android:visibility="invisible" android:text="@string/POKE130"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE011" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t011"/><TextView android:id="@+id/NAME011" android:visibility="invisible" android:text="@string/POKE011"/>
+		<ImageView android:id="@+id/POKE041" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t041"/><TextView android:id="@+id/NAME041" android:visibility="invisible" android:text="@string/POKE041"/>
+		<ImageView android:id="@+id/POKE071" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t071"/><TextView android:id="@+id/NAME071" android:visibility="invisible" android:text="@string/POKE071"/>
+		<ImageView android:id="@+id/POKE101" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t101"/><TextView android:id="@+id/NAME101" android:visibility="invisible" android:text="@string/POKE101"/>
+		<ImageView android:id="@+id/POKE131" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t131"/><TextView android:id="@+id/NAME131" android:visibility="invisible" android:text="@string/POKE131"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE012" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t012"/><TextView android:id="@+id/NAME012" android:visibility="invisible" android:text="@string/POKE012"/>
+		<ImageView android:id="@+id/POKE042" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t042"/><TextView android:id="@+id/NAME042" android:visibility="invisible" android:text="@string/POKE042"/>
+		<ImageView android:id="@+id/POKE072" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t072"/><TextView android:id="@+id/NAME072" android:visibility="invisible" android:text="@string/POKE072"/>
+		<ImageView android:id="@+id/POKE102" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t102"/><TextView android:id="@+id/NAME102" android:visibility="invisible" android:text="@string/POKE102"/>
+		<ImageView android:id="@+id/POKE132" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t132"/><TextView android:id="@+id/NAME132" android:visibility="invisible" android:text="@string/POKE132"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE013" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t013"/><TextView android:id="@+id/NAME013" android:visibility="invisible" android:text="@string/POKE013"/>
+		<ImageView android:id="@+id/POKE043" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t043"/><TextView android:id="@+id/NAME043" android:visibility="invisible" android:text="@string/POKE043"/>
+		<ImageView android:id="@+id/POKE073" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t073"/><TextView android:id="@+id/NAME073" android:visibility="invisible" android:text="@string/POKE073"/>
+		<ImageView android:id="@+id/POKE103" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t103"/><TextView android:id="@+id/NAME103" android:visibility="invisible" android:text="@string/POKE103"/>
+		<ImageView android:id="@+id/POKE133" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t133"/><TextView android:id="@+id/NAME133" android:visibility="invisible" android:text="@string/POKE133"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE014" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t014"/><TextView android:id="@+id/NAME014" android:visibility="invisible" android:text="@string/POKE014"/>
+		<ImageView android:id="@+id/POKE044" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t044"/><TextView android:id="@+id/NAME044" android:visibility="invisible" android:text="@string/POKE044"/>
+		<ImageView android:id="@+id/POKE074" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t074"/><TextView android:id="@+id/NAME074" android:visibility="invisible" android:text="@string/POKE074"/>
+		<ImageView android:id="@+id/POKE104" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t104"/><TextView android:id="@+id/NAME104" android:visibility="invisible" android:text="@string/POKE104"/>
+		<ImageView android:id="@+id/POKE134" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t134"/><TextView android:id="@+id/NAME134" android:visibility="invisible" android:text="@string/POKE134"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE015" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t015"/><TextView android:id="@+id/NAME015" android:visibility="invisible" android:text="@string/POKE015"/>
+		<ImageView android:id="@+id/POKE045" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t045"/><TextView android:id="@+id/NAME045" android:visibility="invisible" android:text="@string/POKE045"/>
+		<ImageView android:id="@+id/POKE075" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t075"/><TextView android:id="@+id/NAME075" android:visibility="invisible" android:text="@string/POKE075"/>
+		<ImageView android:id="@+id/POKE105" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t105"/><TextView android:id="@+id/NAME105" android:visibility="invisible" android:text="@string/POKE105"/>
+		<ImageView android:id="@+id/POKE135" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t135"/><TextView android:id="@+id/NAME135" android:visibility="invisible" android:text="@string/POKE135"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE016" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t016"/><TextView android:id="@+id/NAME016" android:visibility="invisible" android:text="@string/POKE016"/>
+		<ImageView android:id="@+id/POKE046" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t046"/><TextView android:id="@+id/NAME046" android:visibility="invisible" android:text="@string/POKE046"/>
+		<ImageView android:id="@+id/POKE076" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t076"/><TextView android:id="@+id/NAME076" android:visibility="invisible" android:text="@string/POKE076"/>
+		<ImageView android:id="@+id/POKE106" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t106"/><TextView android:id="@+id/NAME106" android:visibility="invisible" android:text="@string/POKE106"/>
+		<ImageView android:id="@+id/POKE136" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t136"/><TextView android:id="@+id/NAME136" android:visibility="invisible" android:text="@string/POKE136"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE017" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t017"/><TextView android:id="@+id/NAME017" android:visibility="invisible" android:text="@string/POKE017"/>
+		<ImageView android:id="@+id/POKE047" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t047"/><TextView android:id="@+id/NAME047" android:visibility="invisible" android:text="@string/POKE047"/>
+		<ImageView android:id="@+id/POKE077" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t077"/><TextView android:id="@+id/NAME077" android:visibility="invisible" android:text="@string/POKE077"/>
+		<ImageView android:id="@+id/POKE107" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t107"/><TextView android:id="@+id/NAME107" android:visibility="invisible" android:text="@string/POKE107"/>
+		<ImageView android:id="@+id/POKE137" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t137"/><TextView android:id="@+id/NAME137" android:visibility="invisible" android:text="@string/POKE137"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE018" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t018"/><TextView android:id="@+id/NAME018" android:visibility="invisible" android:text="@string/POKE018"/>
+		<ImageView android:id="@+id/POKE048" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t048"/><TextView android:id="@+id/NAME048" android:visibility="invisible" android:text="@string/POKE048"/>
+		<ImageView android:id="@+id/POKE078" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t078"/><TextView android:id="@+id/NAME078" android:visibility="invisible" android:text="@string/POKE078"/>
+		<ImageView android:id="@+id/POKE108" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t108"/><TextView android:id="@+id/NAME108" android:visibility="invisible" android:text="@string/POKE108"/>
+		<ImageView android:id="@+id/POKE138" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t138"/><TextView android:id="@+id/NAME138" android:visibility="invisible" android:text="@string/POKE138"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE019" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t019"/><TextView android:id="@+id/NAME019" android:visibility="invisible" android:text="@string/POKE019"/>
+		<ImageView android:id="@+id/POKE049" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t049"/><TextView android:id="@+id/NAME049" android:visibility="invisible" android:text="@string/POKE049"/>
+		<ImageView android:id="@+id/POKE079" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t079"/><TextView android:id="@+id/NAME079" android:visibility="invisible" android:text="@string/POKE079"/>
+		<ImageView android:id="@+id/POKE109" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t109"/><TextView android:id="@+id/NAME109" android:visibility="invisible" android:text="@string/POKE109"/>
+		<ImageView android:id="@+id/POKE139" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t139"/><TextView android:id="@+id/NAME139" android:visibility="invisible" android:text="@string/POKE139"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE020" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t020"/><TextView android:id="@+id/NAME020" android:visibility="invisible" android:text="@string/POKE020"/>
+		<ImageView android:id="@+id/POKE050" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t050"/><TextView android:id="@+id/NAME050" android:visibility="invisible" android:text="@string/POKE050"/>
+		<ImageView android:id="@+id/POKE080" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t080"/><TextView android:id="@+id/NAME080" android:visibility="invisible" android:text="@string/POKE080"/>
+		<ImageView android:id="@+id/POKE110" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t110"/><TextView android:id="@+id/NAME110" android:visibility="invisible" android:text="@string/POKE110"/>
+		<ImageView android:id="@+id/POKE140" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t140"/><TextView android:id="@+id/NAME140" android:visibility="invisible" android:text="@string/POKE140"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE021" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t021"/><TextView android:id="@+id/NAME021" android:visibility="invisible" android:text="@string/POKE021"/>
+		<ImageView android:id="@+id/POKE051" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t051"/><TextView android:id="@+id/NAME051" android:visibility="invisible" android:text="@string/POKE051"/>
+		<ImageView android:id="@+id/POKE081" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t081"/><TextView android:id="@+id/NAME081" android:visibility="invisible" android:text="@string/POKE081"/>
+		<ImageView android:id="@+id/POKE111" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t111"/><TextView android:id="@+id/NAME111" android:visibility="invisible" android:text="@string/POKE111"/>
+		<ImageView android:id="@+id/POKE141" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t141"/><TextView android:id="@+id/NAME141" android:visibility="invisible" android:text="@string/POKE141"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE022" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t022"/><TextView android:id="@+id/NAME022" android:visibility="invisible" android:text="@string/POKE022"/>
+		<ImageView android:id="@+id/POKE052" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t052"/><TextView android:id="@+id/NAME052" android:visibility="invisible" android:text="@string/POKE052"/>
+		<ImageView android:id="@+id/POKE082" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t082"/><TextView android:id="@+id/NAME082" android:visibility="invisible" android:text="@string/POKE082"/>
+		<ImageView android:id="@+id/POKE112" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t112"/><TextView android:id="@+id/NAME112" android:visibility="invisible" android:text="@string/POKE112"/>
+		<ImageView android:id="@+id/POKE142" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t142"/><TextView android:id="@+id/NAME142" android:visibility="invisible" android:text="@string/POKE142"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE023" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t023"/><TextView android:id="@+id/NAME023" android:visibility="invisible" android:text="@string/POKE023"/>
+		<ImageView android:id="@+id/POKE053" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t053"/><TextView android:id="@+id/NAME053" android:visibility="invisible" android:text="@string/POKE053"/>
+		<ImageView android:id="@+id/POKE083" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t083"/><TextView android:id="@+id/NAME083" android:visibility="invisible" android:text="@string/POKE083"/>
+		<ImageView android:id="@+id/POKE113" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t113"/><TextView android:id="@+id/NAME113" android:visibility="invisible" android:text="@string/POKE113"/>
+		<ImageView android:id="@+id/POKE143" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t143"/><TextView android:id="@+id/NAME143" android:visibility="invisible" android:text="@string/POKE143"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE024" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t024"/><TextView android:id="@+id/NAME024" android:visibility="invisible" android:text="@string/POKE024"/>
+		<ImageView android:id="@+id/POKE054" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t054"/><TextView android:id="@+id/NAME054" android:visibility="invisible" android:text="@string/POKE054"/>
+		<ImageView android:id="@+id/POKE084" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t084"/><TextView android:id="@+id/NAME084" android:visibility="invisible" android:text="@string/POKE084"/>
+		<ImageView android:id="@+id/POKE114" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t114"/><TextView android:id="@+id/NAME114" android:visibility="invisible" android:text="@string/POKE114"/>
+		<ImageView android:id="@+id/POKE144" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t144"/><TextView android:id="@+id/NAME144" android:visibility="invisible" android:text="@string/POKE144"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE025" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t025"/><TextView android:id="@+id/NAME025" android:visibility="invisible" android:text="@string/POKE025"/>
+		<ImageView android:id="@+id/POKE055" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t055"/><TextView android:id="@+id/NAME055" android:visibility="invisible" android:text="@string/POKE055"/>
+		<ImageView android:id="@+id/POKE085" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t085"/><TextView android:id="@+id/NAME085" android:visibility="invisible" android:text="@string/POKE085"/>
+		<ImageView android:id="@+id/POKE115" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t115"/><TextView android:id="@+id/NAME115" android:visibility="invisible" android:text="@string/POKE115"/>
+		<ImageView android:id="@+id/POKE145" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t145"/><TextView android:id="@+id/NAME145" android:visibility="invisible" android:text="@string/POKE145"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE026" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t026"/><TextView android:id="@+id/NAME026" android:visibility="invisible" android:text="@string/POKE026"/>
+		<ImageView android:id="@+id/POKE056" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t056"/><TextView android:id="@+id/NAME056" android:visibility="invisible" android:text="@string/POKE056"/>
+		<ImageView android:id="@+id/POKE086" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t086"/><TextView android:id="@+id/NAME086" android:visibility="invisible" android:text="@string/POKE086"/>
+		<ImageView android:id="@+id/POKE116" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t116"/><TextView android:id="@+id/NAME116" android:visibility="invisible" android:text="@string/POKE116"/>
+		<ImageView android:id="@+id/POKE146" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t146"/><TextView android:id="@+id/NAME146" android:visibility="invisible" android:text="@string/POKE146"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE027" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t027"/><TextView android:id="@+id/NAME027" android:visibility="invisible" android:text="@string/POKE027"/>
+		<ImageView android:id="@+id/POKE057" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t057"/><TextView android:id="@+id/NAME057" android:visibility="invisible" android:text="@string/POKE057"/>
+		<ImageView android:id="@+id/POKE087" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t087"/><TextView android:id="@+id/NAME087" android:visibility="invisible" android:text="@string/POKE087"/>
+		<ImageView android:id="@+id/POKE117" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t117"/><TextView android:id="@+id/NAME117" android:visibility="invisible" android:text="@string/POKE117"/>
+		<ImageView android:id="@+id/POKE147" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t147"/><TextView android:id="@+id/NAME147" android:visibility="invisible" android:text="@string/POKE147"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE028" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t028"/><TextView android:id="@+id/NAME028" android:visibility="invisible" android:text="@string/POKE028"/>
+		<ImageView android:id="@+id/POKE058" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t058"/><TextView android:id="@+id/NAME058" android:visibility="invisible" android:text="@string/POKE058"/>
+		<ImageView android:id="@+id/POKE088" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t088"/><TextView android:id="@+id/NAME088" android:visibility="invisible" android:text="@string/POKE088"/>
+		<ImageView android:id="@+id/POKE118" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t118"/><TextView android:id="@+id/NAME118" android:visibility="invisible" android:text="@string/POKE118"/>
+		<ImageView android:id="@+id/POKE148" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t148"/><TextView android:id="@+id/NAME148" android:visibility="invisible" android:text="@string/POKE148"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE029" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t029"/><TextView android:id="@+id/NAME029" android:visibility="invisible" android:text="@string/POKE029"/>
+		<ImageView android:id="@+id/POKE059" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t059"/><TextView android:id="@+id/NAME059" android:visibility="invisible" android:text="@string/POKE059"/>
+		<ImageView android:id="@+id/POKE089" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t089"/><TextView android:id="@+id/NAME089" android:visibility="invisible" android:text="@string/POKE089"/>
+		<ImageView android:id="@+id/POKE119" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t119"/><TextView android:id="@+id/NAME119" android:visibility="invisible" android:text="@string/POKE119"/>
+		<ImageView android:id="@+id/POKE148" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t148"/><TextView android:id="@+id/NAME148" android:visibility="invisible" android:text="@string/POKE148"/>
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/POKE030" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t030"/><TextView android:id="@+id/NAME030" android:visibility="invisible" android:text="@string/POKE030"/>
+		<ImageView android:id="@+id/POKE060" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t060"/><TextView android:id="@+id/NAME060" android:visibility="invisible" android:text="@string/POKE060"/>
+		<ImageView android:id="@+id/POKE090" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t090"/><TextView android:id="@+id/NAME090" android:visibility="invisible" android:text="@string/POKE090"/>
+		<ImageView android:id="@+id/POKE120" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t120"/><TextView android:id="@+id/NAME120" android:visibility="invisible" android:text="@string/POKE120"/>
+		<ImageView android:id="@+id/POKE150" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t150"/><TextView android:id="@+id/NAME150" android:visibility="invisible" android:text="@string/POKE150"/>
+	</TableRow>
+	
+	<TableRow>
+	    <ImageView android:id="@+id/POKE151" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t151" android:layout_column="8"/><TextView android:id="@+id/NAME150" android:text="@string/POKE151" android:visibility="invisible" android:layout_column="9"/>
+	</TableRow>
+	
+</TableLayout>
+</ScrollView>
+</HorizontalScrollView>
