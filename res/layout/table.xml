@@ -254,7 +254,7 @@
 		<ImageView android:id="@+id/POKE059" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t059"/><TextView android:id="@+id/NAME059" android:visibility="invisible" android:text="@string/POKE059"/>
 		<ImageView android:id="@+id/POKE089" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t089"/><TextView android:id="@+id/NAME089" android:visibility="invisible" android:text="@string/POKE089"/>
 		<ImageView android:id="@+id/POKE119" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t119"/><TextView android:id="@+id/NAME119" android:visibility="invisible" android:text="@string/POKE119"/>
-		<ImageView android:id="@+id/POKE148" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t148"/><TextView android:id="@+id/NAME148" android:visibility="invisible" android:text="@string/POKE148"/>
+		<ImageView android:id="@+id/POKE149" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t148"/><TextView android:id="@+id/NAME149" android:visibility="invisible" android:text="@string/POKE149"/>
 	</TableRow>
 	
 	<TableRow>
@@ -266,7 +266,7 @@
 	</TableRow>
 	
 	<TableRow>
-	    <ImageView android:id="@+id/POKE151" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t151" android:layout_column="8"/><TextView android:id="@+id/NAME150" android:text="@string/POKE151" android:visibility="invisible" android:layout_column="9"/>
+	    <ImageView android:id="@+id/POKE151" android:layout_height="25dp" android:layout_width="25dp" android:visibility="invisible" android:src="@drawable/t151" android:layout_column="8"/><TextView android:id="@+id/NAME151" android:text="@string/POKE151" android:visibility="invisible" android:layout_column="9"/>
 	</TableRow>
 	
 </TableLayout>
